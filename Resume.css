@@ -41,6 +41,7 @@
 .u-section-2 .u-image-1 {
   min-height: 1516px;
   background-image: url("np://user.desktop.nicepage.com/Site_1460625803/images/MichalMalek_Resume_Sept7-1.png?rand=4058");
+  background-position: 50% 50%;
 }
 
 @media (max-width: 1199px) {
