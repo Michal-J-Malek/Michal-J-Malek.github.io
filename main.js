@@ -1,1 +1,1 @@
-iFrameResize({log: true}, 'myPDF')
+iFrameResize({log: true}, '#myPDF')
