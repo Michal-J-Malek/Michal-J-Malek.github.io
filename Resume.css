@@ -3,34 +3,41 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1349px;
+  min-height: 1298px;
 }
 
 .u-section-1 .u-custom-html-1 {
   height: auto;
-  min-height: 1239px;
+  min-height: 907px;
   width: 833px;
-  margin: 110px auto 0;
+  margin: 27px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1132px;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-custom-html-1 {
-    width: 720px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 1135px;
   }
-}
 
-@media (max-width: 767px) {
   .u-section-1 .u-custom-html-1 {
-    width: 540px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    min-height: 1077px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
-}
-
-@media (max-width: 575px) {
-  .u-section-1 .u-custom-html-1 {
-    width: 340px;
-  }
-}
-@media only  screen and (min-width : 320px) and (max-width : 480px) {
+}@media only  screen and (min-width : 320px) and (max-width : 480px) {
   .locatie {
           position: relative;
           padding-bottom: 56.25%;
