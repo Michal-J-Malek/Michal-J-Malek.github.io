@@ -29,4 +29,9 @@
   .u-section-1 .u-custom-html-1 {
     width: 340px;
   }
+}@media(min-width:0px) and (max-width:768) {
+.locatie iframe {
+    width: 100%;
+    height: according to your;
+}
 }
