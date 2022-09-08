@@ -3,9 +3,21 @@
         Testing PDF Viewer
     </title>
     <body>
-        <iframe scrollable="no" frameborder="0" id="myPDF" src = "./pdf.html"> </iframe> 
+        <!--<iframe scrollable="no" frameborder="0" id="myPDF" src = "./pdf.html"> </iframe> 
         <script src="./iframeResizer.min.js"></script>
-        <script src="./main.js"></script>
+        <script src="./main.js"></script>-->
+
+        <style>
+            iframe {
+              width: 1px;
+              min-width: 100%;
+            }
+          </style>
+          <script src="/js/iframeResizer.min.js"></script>
+          <iframe id="myIframe" src="./pdf.html"></iframe>
+          <script>
+            iFrameResize({ log: true }, '#myIframe')
+          </script>
     </body>
 
 </html>
