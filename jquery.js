@@ -6,6 +6,8 @@ var titles = [
     'RESUME',
 ];
 
+//http://jsfiddle.net/n61jehqa/
+
 $(window).scroll(function(){
     var pos = $(this).scrollTop();
     
