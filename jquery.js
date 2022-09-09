@@ -9,13 +9,14 @@ var titles = [
 $(window).scroll(function(){
     var pos = $(this).scrollTop();
     
+    if(pos < 800){
+        $('#title').text(titles[0]);
+    }
     if(pos > 800) {
-        $('#scroll').text(titles[1]);
+        $('#title').text(titles[1]);
     }
     if(pos > 1500) {
-        $('#scroll').text(titles[2]);
+        $('#title').text(titles[2]);
     }
-    else{
-        $('#scroll').text(titles[0]);
-    }
+    
 });
