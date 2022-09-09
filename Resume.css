@@ -3,42 +3,70 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1129px;
+  min-height: 1133px;
 }
 
 .u-section-1 .u-custom-html-1 {
   height: auto;
-  min-height: 907px;
+  min-height: 1107px;
   width: 833px;
-  margin: 26px auto;
+  margin: 13px auto;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1132px;
+    min-height: 1032px;
   }
 
   .u-section-1 .u-custom-html-1 {
-    margin-top: 28px;
-    margin-bottom: 28px;
+    min-height: 1004px;
+    margin-top: 14px;
+    margin-bottom: 14px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1135px;
+    min-height: 950px;
   }
 
   .u-section-1 .u-custom-html-1 {
-    margin-top: 29px;
-    margin-bottom: 29px;
-    min-height: 1077px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 920px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 }
-@media only  screen and (min-width : 320px) and (max-width : 480px) {
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 758px;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    min-height: 727px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 487px;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    min-height: 455px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+}@media only  screen and (min-width : 320px) and (max-width : 480px) {
   .locatie {
           position: relative;
           padding-bottom: 56.25%;
@@ -52,8 +80,4 @@
       display: block;
       border: 0;
   }
-}
-
-#myPDF {
-  min-width: 100%;
 }
