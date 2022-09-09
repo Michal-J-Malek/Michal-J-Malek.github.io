@@ -22,7 +22,7 @@ $(window).scroll(function(){
     }
     if(pos > 750){
         $('#title').text(titles[1]);
-        $('#sec-6fb2').slideDown();
+        $('title').slideDown();
         //$('#title').slideDown();
     }
     if(pos < 1450) {
@@ -30,7 +30,7 @@ $(window).scroll(function(){
     }
     if(pos > 1450) {
         $('#title').text(titles[2]);
-        $('#sec-6fb2').slideDown();
+        $('#title').slideDown();
         //$('#title').slideDown();
     }
     
