@@ -261,7 +261,7 @@
 .u-section-4 .u-custom-html-1 {
   height: auto;
   min-height: 1157px;
-  margin: auto auto 0;
+  margin: 22px 0 0 50px;
 }
 
 @media (max-width: 1199px) {
@@ -271,8 +271,8 @@
 
   .u-section-4 .u-custom-html-1 {
     min-height: 1107px;
-    margin-right: initial;
-    margin-left: initial;
+    width: 940px;
+    margin-left: 0;
   }
 }
 
@@ -283,8 +283,7 @@
 
   .u-section-4 .u-custom-html-1 {
     min-height: 920px;
-    margin-right: initial;
-    margin-left: initial;
+    width: 720px;
   }
 }
 
@@ -295,8 +294,7 @@
 
   .u-section-4 .u-custom-html-1 {
     min-height: 727px;
-    margin-right: initial;
-    margin-left: initial;
+    width: 540px;
   }
 }
 
@@ -307,7 +305,6 @@
 
   .u-section-4 .u-custom-html-1 {
     min-height: 455px;
-    margin-right: initial;
-    margin-left: initial;
+    width: 340px;
   }
 }
