@@ -11,18 +11,18 @@ $(window).scroll(function(){
     var pos = $(this).scrollTop();
     
     if(pos < 200) {
-        $('.u-align-center u-text u-title u-text-1').slideUp().text(titles[0]);
+        $('#scroll').slideUp().text(titles[0]);
     }
     if(pos > 200) {
-        $('.u-align-center u-text u-title u-text-1').slideDown();
+        $('#scroll').slideDown();
     }
     if(pos > 700) {
-        $('.u-align-center u-text u-title u-text-1').text(titles[1]);
+        $('#scroll').text(titles[1]);
     }
     if(pos > 1300) {
-        $('.u-align-center u-text u-title u-text-1').text(titles[2]);
+        $('#scroll').text(titles[2]);
     }
     if(pos > 1800) {
-        $('.u-align-center u-text u-title u-text-1').text(titles[3]);
+        $('#scroll').text(titles[3]);
     }
 });
