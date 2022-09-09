@@ -255,14 +255,13 @@
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 1210px;
+  min-height: 1179px;
 }
 
 .u-section-4 .u-custom-html-1 {
   height: auto;
   min-height: 1157px;
-  margin-top: 33px;
-  margin-bottom: 20px;
+  margin: auto auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -272,6 +271,8 @@
 
   .u-section-4 .u-custom-html-1 {
     min-height: 1107px;
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
@@ -282,6 +283,8 @@
 
   .u-section-4 .u-custom-html-1 {
     min-height: 920px;
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
@@ -292,6 +295,8 @@
 
   .u-section-4 .u-custom-html-1 {
     min-height: 727px;
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
@@ -302,5 +307,7 @@
 
   .u-section-4 .u-custom-html-1 {
     min-height: 455px;
+    margin-right: initial;
+    margin-left: initial;
   }
 }
