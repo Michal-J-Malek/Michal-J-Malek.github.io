@@ -18,7 +18,7 @@ $(window).scroll(function(){
 
     if(pos < 750){
         $('#title').slideUp().text(titles[1]);
-        //$('.top').slideDown().text(titles[0]);
+        $('.top').slideDown().text(titles[0]);
         $('#title').text(titles[0]);
     }
     if(pos > 750){
