@@ -9,14 +9,38 @@ var titles = [
 $(window).scroll(function(){
     var pos = $(this).scrollTop();
     
-    if(pos < 800){
-        $('#title').text(titles[0]);
+    /*if(pos < 200) {
+        $('.top').slideUp().text(titles[0]);
     }
-    if(pos > 800) {
+    if(pos > 200) {
+        $('.top').slideDown();
+    }*/
+
+    if(pos < 750){
+        $('#title').slideUp().text(titles[1]);
+        $('#title').text(titles[1]);
+    }
+    if(pos > 750){
+        $('#title').text(titles[1]);
+        $('#sec-6fb2').slideDown();
+        //$('#title').slideDown();
+    }
+    if(pos < 1450) {
+        $('#title').slideUp().text(titles[2]);
+    }
+    if(pos > 1450) {
+        $('#title').text(titles[2]);
+        $('#sec-6fb2').slideDown();
+        //$('#title').slideDown();
+    }
+    
+    /*if(pos < 800){
+        $('#title').text(titles[1]);
+    }
+    if(pos > 800){
         $('#title').text(titles[1]);
     }
     if(pos > 1500) {
         $('#title').text(titles[2]);
-    }
-    
+    }*/
 });
