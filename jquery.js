@@ -17,17 +17,12 @@ $(window).scroll(function(){
     }*/
 
     if(pos < 750){
-        $('#title').slideUp().text(titles[1]);
-        $('.top').slideDown().text(titles[0]);
         $('#title').text(titles[0]);
     }
     if(pos > 750){
         $('#title').text(titles[1]);
         $('title').slideDown();
         //$('#title').slideDown();
-    }
-    if(pos < 1450) {
-        $('#title').slideUp().text(titles[2]);
     }
     if(pos > 1450) {
         $('#title').text(titles[2]);
