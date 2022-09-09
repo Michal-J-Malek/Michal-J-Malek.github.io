@@ -21,12 +21,12 @@ $(window).scroll(function(){
     }
     if(pos > 750){
         $('#title').text(titles[1]);
-        $('title').slideDown();
+        $('#sec-6fb2').slideDown();
         //$('#title').slideDown();
     }
     if(pos > 1450) {
         $('#title').text(titles[2]);
-        $('#title').slideDown();
+        $('#sec-6fb2').slideDown();
         //$('#title').slideDown();
     }
     
