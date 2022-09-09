@@ -16,13 +16,13 @@ $(window).scroll(function(){
         $('.top').slideDown();
     }*/
 
-    if(pos < 750){
+    if(pos < 740){
         $('#title').text(titles[0]);
     }
-    if(pos > 750){
+    if(pos > 740){
         $('#title').text(titles[1]);
     }
-    if(pos > 1450) {
+    if(pos > 1440) {
         $('#title').text(titles[2]);
     }
     
