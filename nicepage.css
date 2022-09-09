@@ -38693,8 +38693,6 @@ a.u-link.u-text-hover-grey-90:hover {
         
         }
 
-
-
         /** common-rules **/
         h1.u-title
         {
@@ -38969,16 +38967,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         /** alt-color-rules **/
     
-        .top {
-          text-align: center;
-          height: 30px;
-          line-height: 30px;
-          background: #aaa;
-          position: fixed;
-          width: 100%;
-          top: 0px;
-          display: none;
-      }
+
 
 /*end-variables sitestylecss*/
  .u-header {
@@ -39123,8 +39112,6 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 164px;
   }
 }
-
-
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
