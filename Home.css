@@ -19,6 +19,17 @@
   margin: -147px auto 0 133px;
 }
 
+.top {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  background: #aaa;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  display: none;
+}
+
 .u-section-1 .u-group-1 {
   min-height: 461px;
   width: 320px;
