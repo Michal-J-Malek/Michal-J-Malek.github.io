@@ -9,8 +9,8 @@
 .u-section-1 .u-custom-html-1 {
   height: auto;
   min-height: 1157px;
-  width: 833px;
-  margin: 33px auto;
+  width: 1011px;
+  margin: 33px auto 32px;
 }
 
 @media (max-width: 1199px) {
@@ -20,8 +20,7 @@
 
   .u-section-1 .u-custom-html-1 {
     min-height: 1107px;
-    margin-top: 17px;
-    margin-bottom: 17px;
+    width: 940px;
   }
 }
 
@@ -45,8 +44,6 @@
 
   .u-section-1 .u-custom-html-1 {
     min-height: 727px;
-    margin-top: 21px;
-    margin-bottom: 21px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
