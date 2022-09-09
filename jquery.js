@@ -24,7 +24,7 @@ $(window).scroll(function(){
     if(pos > 630){
         $('#title').text(titles[1]);
     }
-    if(pos > 1310) {
+    if(pos > 1330) {
         $('#title').text(titles[2]);
     }
     
